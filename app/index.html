@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="css/quiz.css">
+</head>
+<body>
+
+
+
+<form id="container" class="container">
+    <div class="container-settings">
+
+        <label>How many questions do you want to answer?<br>
+        <input class="container-settings__input" type="number" id="count" min="1"/>
+        </label>
+        <br>
+        <button class="container-settings__submit" id="submit">Display</button>
+        <button class="container-settings__submit" id="clear">Clear</button>
+    </div>
+
+    <ol class="container-main-list" id="list">
+
+    </ol>
+</form>
+
+<script src="vendor/jquery/dist/jquery.min.js"></script>
+<script src="js/Data.js"></script>
+<script src="js/Model.js"></script>
+<script src="js/View.js"></script>
+<script src="js/Controller.js"></script>
+</body>
+</html>
